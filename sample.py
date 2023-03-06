@@ -11,7 +11,7 @@ class InventoryItem:
     def total_cost(self) -> float:
         return self.unit_price * self.quantity_on_hand
 
-
+#change1
 if __name__ == "__main__":
 
     data = {"name": "laptop", "unit_price": "", "quantity_on_hand": 30}
